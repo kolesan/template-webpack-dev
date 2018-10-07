@@ -1,5 +1,5 @@
-# mindful
-Simple timer with configurable gongs, to be used during meditation practice
+# tempalte-webpack-dev
+Template project with webpack-dev-server, css-loader and html plugin configured
 
 ### Running
 Use `npm run dev` to start a webpack development server
