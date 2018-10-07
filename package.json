@@ -1,12 +1,12 @@
 {
-  "name": "mindful",
+  "name": "template-webpack-dev",
   "version": "1.0.0",
   "private": true,
   "description": "Simple timer with configurable gongs, to be used during meditation practice",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --open",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --open --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kolesan90@gmail.com",
@@ -17,6 +17,15 @@
     "style-loader": "^0.23.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9"
-  }
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolesan/template-webpack-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kolesan/template-webpack-dev/issues"
+  },
+  "homepage": "https://github.com/kolesan/template-webpack-dev#readme"
 }
