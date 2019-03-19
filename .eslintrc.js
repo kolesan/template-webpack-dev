@@ -15,6 +15,6 @@ module.exports = {
     'sourceType': 'module'
   },
   'rules': {
-
+    "array-callback-return": 1
   }
 };
